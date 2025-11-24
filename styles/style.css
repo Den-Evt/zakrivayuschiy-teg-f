@@ -164,6 +164,7 @@
   padding: 0;
   transition: border-color 0.3s ease;
   max-block-size: 38px;
+  cursor: pointer;
 }
 
 .card__icon-button:focus-visible {
@@ -190,7 +191,7 @@
   cursor: pointer;
 }
 
-button::before {
+.button::before {
   content: "";
   position: absolute;
   inset: 0;
